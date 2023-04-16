@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'KlinicSlabBold'; 
+    src: url(css/KlinicSlabBold);
+} /*This is added to find the KlinicSlabBold from the css folder*/
+
+body {background-color: #D8C6B8;}/*This is adding cannoli as the background for the main page*/
+h1 {
+    align-items: center; /*This is center the h1 text*/
+    font-family: 'KlinicSlabBold'; /* This is assigning the text in h1 to Klinic Slab Bold*/
+    font-size: 40px; /* This is setting the font size for the text*/
+    color: #0B9446;
+}
+ul {
+    list-style-type: none; 
+    margin: 100px;
+    padding: 100;
+    text-align: center;
+    }
+li {
+    display: inline;
+    float: center;
+}
+li a {
+    color: #CF1C44; /*this is the font color and it is wine */  
+    padding: 30px; /*this is the padding around the text which creates
+    that box */
+    margin: 40px;
+    background-color: #0B9446; /* this is the background color of the
+    box around the text */
+    font-size: 20px;
+    } 
+li a:hover {
+    background-color: #543136; /*This is setting the background to change when a mouse is hovering over it*/
+}
+li a:active {
+    background-color: #7b573e; /*This is changing color when they click/ push the button*/
+}
+
+p{
+    text-align: center;
+}
+
+.info{
+    color: #5e1211; /*this is the font color and it is wine */  
+    padding: 0px; /*this is the padding around the text which creates
+    that box */
+
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+
+}
+
+ .missionStatement{
+    font-family: 'KlinicSlabBold';
+    font-size: 25px;
+    display: table;
+    color: #5e1211;
+    text-align: center;
+ }
+ .specials{
+    font-family: 'KlinicSlabBold';
+    font-size: 30px;
+    text-align: center;
+    color: #5e1211;
+    text-align: center;
+ }
+
+ footer{
+    text-align: center;
+ }
+
+body{
+    text-align: center;
+}
+
+
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=search] {
+    float: right;
+    border: none;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 0px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+
+  .mainlogo{
+    float: left;
+  }
+
+  .secondaryimage{
+    margin: 100px;
+    padding: 100px;
+}
+
+.socialmedia{
+    padding: 0px;
+    margin: 0px;
+    float: center;
+    font-size: 12px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .entree{
+    color: #CF1C44;
+    font-family: 'KlinicSlabBold';
+    font-size: 26px;
+  }
+  .description{
+    color: #5e1211;
+    font-family: 'KlinicSlabBold';
+    font-size: 16px;
+  }
+
+  .statements{
+    color: #543136;
+    float: center;
+    width: 50%;
+    margin-left: 475px;
+    display: table;
+    font-size: 20px;
+    font-family: 'KlinicSlabBold';
+  }
+
+  .statement{
+    color: #CF1C44;
+    font-family: 'KlinicSlabBold';
+    font-size: 35px;
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 20px; /* Add a top margin */
+  margin-bottom: 30px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 50px;
+  background-color: #c0bdbd;
+  padding: 50px;
+  height: 850px;
+}
+
+.feedback{
+  color: #CF1C44;
+  font-family: 'KlinicSlabBold';
+  font-size: 40px;
+}
+
